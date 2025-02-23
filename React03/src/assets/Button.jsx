@@ -39,7 +39,7 @@
 //     )
 
 // }
-// import { useState } from "react";
+import { useState } from "react";
 // export default function Like(){
 //   let [isLiked,setisLiked]=useState(false);
 //   let [count,setcount]=useState(0);
@@ -59,6 +59,29 @@
 // )
 // }
 
+export default function Counter(){
+    let [count,setCount]= useState(0);
+   
+    
+      let inCount = () =>{
+        setCount((CurCount) =>{
+          return CurCount+1;
+        }) ;
+        setCount((CurCount) =>{
+          return CurCount+1;
+        }) ;
+      }
+        
+    
+    
+    return(
+        <>
+        <h3>Count is {count}</h3>
+        <button className="p-[5px_10px] text-black border-[1px] border-black" onClick={inCount}>click me</button>
+        </>
+    )
+
+}
 
 
 

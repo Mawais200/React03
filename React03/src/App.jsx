@@ -1,6 +1,6 @@
 // import Button from './assets/Button'
-// import Counter from './assets/Button'
-import Like from './assets/Button'
+import Counter from './assets/Button'
+// import Like from './assets/Button'
 import './App.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <Like/>
+      <Counter/>
     </>
   )
 }
