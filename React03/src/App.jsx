@@ -1,4 +1,4 @@
-
+import Button from './assets/Button'
 import './App.css'
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      
+      <Button/>
     </>
   )
 }
